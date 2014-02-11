@@ -19,6 +19,9 @@
 		A889EAE118A95AB300A8ABB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A889EAC918A95AB300A8ABB9 /* UIKit.framework */; };
 		A889EAE918A95AB300A8ABB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A889EAE718A95AB300A8ABB9 /* InfoPlist.strings */; };
 		A889EAEB18A95AB300A8ABB9 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A889EAEA18A95AB300A8ABB9 /* ToDoListTests.m */; };
+		A889EAF518A9614D00A8ABB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A889EAF418A9614D00A8ABB9 /* Main.storyboard */; };
+		A889EAF818AA7C6500A8ABB9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889EAF718AA7C6500A8ABB9 /* TestViewController.m */; };
+		A889EAFB18AA7F2900A8ABB9 /* TestUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A889EAFA18AA7F2900A8ABB9 /* TestUITableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		A889EAE618A95AB300A8ABB9 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		A889EAE818A95AB300A8ABB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A889EAEA18A95AB300A8ABB9 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		A889EAF418A9614D00A8ABB9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A889EAF618AA7C6500A8ABB9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A889EAF718AA7C6500A8ABB9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A889EAF918AA7F2900A8ABB9 /* TestUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUITableViewController.h; sourceTree = "<group>"; };
+		A889EAFA18AA7F2900A8ABB9 /* TestUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUITableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 			children = (
 				A889EAD418A95AB300A8ABB9 /* TestAppDelegate.h */,
 				A889EAD518A95AB300A8ABB9 /* TestAppDelegate.m */,
+				A889EAF418A9614D00A8ABB9 /* Main.storyboard */,
+				A889EAF918AA7F2900A8ABB9 /* TestUITableViewController.h */,
+				A889EAFA18AA7F2900A8ABB9 /* TestUITableViewController.m */,
+				A889EAF618AA7C6500A8ABB9 /* TestViewController.h */,
+				A889EAF718AA7C6500A8ABB9 /* TestViewController.m */,
 				A889EAD718A95AB300A8ABB9 /* Images.xcassets */,
 				A889EACC18A95AB300A8ABB9 /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A889EAF518A9614D00A8ABB9 /* Main.storyboard in Resources */,
 				A889EAD018A95AB300A8ABB9 /* InfoPlist.strings in Resources */,
 				A889EAD818A95AB300A8ABB9 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A889EAF818AA7C6500A8ABB9 /* TestViewController.m in Sources */,
 				A889EAD618A95AB300A8ABB9 /* TestAppDelegate.m in Sources */,
 				A889EAD218A95AB300A8ABB9 /* main.m in Sources */,
+				A889EAFB18AA7F2900A8ABB9 /* TestUITableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
